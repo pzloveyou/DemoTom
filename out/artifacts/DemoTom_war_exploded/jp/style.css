@@ -1,0 +1,35 @@
+@charset "utf-8";
+<!--
+.clearfix:after {content: "."; padding:0; margin:0;	display: block;	height:0; clear: both; visibility: hidden;}
+
+/*设置鼠标经过默认渐显*/
+:hover{transition:0.2s;-moz-transition:0.2s;-webit-transition:0.2s;-o-transition:0.2s;}
+#PowerValue{ top:80px;left:-120px;border:outset 1px #CCCCCC;width:400px; padding:5px; position:absolute; font-size:14px; height:30px;}
+#PowerValue b{ margin-top:5px; padding:0px; align-items:center; float:right; display:block; overflow:hidden;width: 0;height: 0;border-style: solid; border-width: 10px 5px 0 5px; border-color: #383838 transparent transparent transparent;}
+#PowerValue b.open{border-width: 0 5px 10px 5px;border-color: transparent transparent #383838 transparent;}
+
+#PowerValue a{ display:inline-flex;justify-content:right;align-items:center; padding:2px 5px; font-size:14px; text-decoration:none;-moz-border-radius: 5px;-webkit-border-radius: 5px;border-radius:5px; color:#000}
+#PowerValue a:hover{ background:#ffdcb8;}
+
+
+/*弹出框的样式*/
+#PowerTabDiv{ width:600px; box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5); background:#FFF; border-top: solid 1px #FFFFFF; display:none; position:absolute; z-index:99}
+#PowerTabDiv #Tab-tag{ position:relative; padding:0; margin:0; height:30px; color:#FFF; background: rgba(0, 0, 0, 0.51); line-height:30px;}
+#PowerTabDiv #Tab-tag a{ color:#FFF; float:left; font-size:16px; padding:0px 20px; margin:0px; display:inline-block; text-decoration:none; border-right:2px solid #ffdcb8;}
+#PowerTabDiv #Tab-tag a.Selected{ color:#000; background:#FFF;}
+
+#PowerTabDiv .Tab-Content{ width:100%; display:none;}
+
+.Tab-Content .AddSelect{padding:20px 20px 10px 20px;}
+.Tab-Content .AddSelect input{ height:20px; width:80%; overflow:hidden; font-size:14px; padding:2px; margin:0px; float:left; }
+.Tab-Content .AddSelect a{ height:22px; width:10%; margin-left:10px; overflow:hidden; font-size:14px; display:inline-block; line-height:22px; align-items:center; text-align:center; color:#FFF; background:rgb(0,153,255); text-decoration:none;-moz-border-radius: 5px;-webkit-border-radius: 5px;border-radius:5px;}
+.Tab-Content .AddSelect a:hover{ background:rgb(0,102,255)}
+
+#PowerTabDiv .Tab-Content ul{ padding:00px 20px 20px 20px; list-style:none; display:block}
+#PowerTabDiv .Tab-Content ul li{ cursor:pointer; float:left; padding:4px 10px; margin:4px 2px; display:inline-block; font-size:14px; -moz-border-radius: 5px;-webkit-border-radius: 5px;border-radius:5px; }
+#PowerTabDiv .Tab-Content ul li b{ font-weight:normal; color:#F00; padding:0; margin:0;}
+#PowerTabDiv .Tab-Content ul li.add{ float:none; clear:both; text-decoration:underline;}
+#PowerTabDiv .Tab-Content ul li:hover{ background:#ffdcb8;}
+#PowerTabDiv .Tab-Content ul li.Selected{background:#e9630a; color:#FFF}
+#PowerTabDiv .Tab-Content ul li.Selected b{color:#FFF; text-decoration:underline;}
+-->
